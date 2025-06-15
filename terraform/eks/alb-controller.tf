@@ -7,7 +7,7 @@ resource "aws_iam_policy" "alb_ingress_controller" {
 }
 
 resource "aws_iam_role" "alb_controller_irsa" {
-  name = "eks-alb-ingress-controller-new"
+  name = "eks-alb-ingress-controller"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17",
