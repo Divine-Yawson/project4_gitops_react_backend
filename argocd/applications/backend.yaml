@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/SASowah/devops-end-to-end-labs
-    targetRevision: project-4-gitops-argocd
+    repoURL: https://github.com/Divine-Yawson/project4_gitops_react_backend.git
+    targetRevision: main
     path: helm/backend
     helm:
       releaseName: backend
